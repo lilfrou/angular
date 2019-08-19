@@ -14,7 +14,7 @@ stages {
            sh "cd frontend/src/main/web && ng build"
                  
 
-                 
+                  sh "mvn -v"
         }
     }  
          
