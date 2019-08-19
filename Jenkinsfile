@@ -11,9 +11,9 @@ stages {
         }
     stage('cleaning stage') {
              steps {
-              sh "mvn clean" 
-              sh "mvn clean install" 
-                 sh "mvn -v"
+           sh "cd frontend/src/main/web && ng build"
+                 
+
                  
         }
     }  
