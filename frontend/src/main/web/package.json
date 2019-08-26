@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "publishConfig": {
-    "registry": "http://your-host:8081/repository/npm-private/"
+    "registry": "http://localhost:8081/repository/npm-private/"
   }
   },
   "private": false,
