@@ -11,10 +11,11 @@ stages {
         }
     stage('cleaning stage') {
              steps {
-           sh "cd frontend/src/main/web && ng build"
+           sh "cd frontend/src/main/web && npm install"
+           sh "cd frontend/src/main/web && npm run build"
                  
 
-                  sh "mvn -v"
+                  
         }
     }  
          
