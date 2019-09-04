@@ -14,6 +14,9 @@ stages {
            sh "cd frontend/src/main/web && npm install"
            sh "cd frontend/src/main/web && npm run build"
            sh "cd frontend/src/main/web && npm publish"
+           sh "cd client && npm install"
+           sh "cd client && npm run build"
+           sh "cd client && npm publish"
                  
 
                   
